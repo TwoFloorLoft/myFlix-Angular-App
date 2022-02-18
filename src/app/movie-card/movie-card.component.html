@@ -17,7 +17,7 @@
                 <mat-card-title>{{movie.Title}}</mat-card-title>
                 <mat-card-subtitle>Directed by: {{movie.Director.Name}}</mat-card-subtitle>
             </mat-card-header>
-            <img src={{movie.ImagePath}} alt={{movie.Title}} width="250" height="300" />
+            <img src={{movie.ImagePath}} alt={{movie.Title}} width="300" height="350" />
             <mat-card-actions class="button">
                 <button class="genre" mat-stroked-button
                     (click)="openGenreDialog(movie.Genre.Name, movie.Genre.Description)" color="primary">Genre</button>
